@@ -1,0 +1,34 @@
+[
+    {
+        "platform": "GitHub",
+        "url": "https://github.com/TheTesterss",
+        "icon": "fab fa-github",
+        "color": "text-gray-800 dark:text-gray-200",
+        "username": "TheTesterss",
+        "labelKey": "followers"
+    },
+    {
+        "platform": "Discord",
+        "url": "https://discord.gg/zzCDW6Nhsq",
+        "icon": "fab fa-discord",
+        "color": "text-indigo-600",
+        "username": "Testers's lab",
+        "labelKey": "members"
+    },
+    {
+        "platform": "Twitter",
+        "url": "https://twitter.com/testers_2222",
+        "icon": "fab fa-twitter",
+        "color": "text-blue-400",
+        "username": "TheTesters",
+        "labelKey": "followers"
+    },
+    {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/morgan_jaouen_/",
+        "icon": "fab fa-instagram",
+        "color": "text-magenta-600",
+        "username": "Morgan Jaouen",
+        "labelKey": "followers"
+    }
+]

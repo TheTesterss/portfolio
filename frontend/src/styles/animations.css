@@ -1,0 +1,81 @@
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-5px) rotate(5deg);
+    }
+    50% {
+        transform: translateY(0) rotate(0deg);
+    }
+    75% {
+        transform: translateY(5px) rotate(-5deg);
+    }
+}
+
+@keyframes rotate-clockwise {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-counter-clockwise {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.icon-float-1 {
+    animation:
+        float 4s ease-in-out infinite,
+        rotate-clockwise 20s linear infinite;
+}
+
+.icon-float-2 {
+    animation:
+        float 3.5s ease-in-out infinite,
+        rotate-counter-clockwise 18s linear infinite;
+}
+
+.icon-float-3 {
+    animation:
+        float 4.5s ease-in-out infinite,
+        rotate-clockwise 22s linear infinite;
+}
+
+.icon-float-4 {
+    animation:
+        float 3s ease-in-out infinite,
+        rotate-counter-clockwise 16s linear infinite;
+}
+
+.icon-float-5 {
+    animation:
+        float 5s ease-in-out infinite,
+        rotate-clockwise 25s linear infinite;
+}
+
+.icon-float-6 {
+    animation:
+        float 3.8s ease-in-out infinite,
+        rotate-counter-clockwise 19s linear infinite;
+}
+
+.icon-float-7 {
+    animation:
+        float 4.2s ease-in-out infinite,
+        rotate-clockwise 21s linear infinite;
+}
+
+.icon-float-8 {
+    animation:
+        float 3.3s ease-in-out infinite,
+        rotate-counter-clockwise 17s linear infinite;
+}

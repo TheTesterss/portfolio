@@ -1,0 +1,86 @@
+[
+    {
+        "id": "ts",
+        "name": "TypeScript",
+        "icon": "devicon-typescript-plain",
+        "type": "language",
+        "level": "expert"
+    },
+    {
+        "id": "js",
+        "name": "JavaScript",
+        "icon": "fab fa-node-js",
+        "type": "language",
+        "level": "expert"
+    },
+    {
+        "id": "html",
+        "name": "HTML5",
+        "icon": "fab fa-html5",
+        "type": "language",
+        "level": "advanced"
+    },
+    {
+        "id": "css",
+        "name": "CSS3",
+        "icon": "fab fa-css3-alt",
+        "type": "language",
+        "level": "advanced"
+    },
+    {
+        "id": "react",
+        "name": "React",
+        "icon": "fab fa-react",
+        "type": "framework",
+        "level": "advanced"
+    },
+    {
+        "id": "tailwind",
+        "name": "Tailwind CSS",
+        "icon": "fas fa-wind",
+        "type": "framework",
+        "level": "beginner"
+    },
+    {
+        "id": "go",
+        "name": "Go (Golang)",
+        "icon": "fab fa-golang",
+        "type": "language",
+        "level": "intermediate"
+    },
+    {
+        "id": "python",
+        "name": "Python",
+        "icon": "fab fa-python",
+        "type": "language",
+        "level": "expert"
+    },
+    {
+        "id": "git",
+        "name": "Git",
+        "icon": "fab fa-git-alt",
+        "type": "tool",
+        "level": "advanced"
+    },
+    {
+        "id": "github",
+        "name": "GitHub",
+        "icon": "fab fa-github",
+        "type": "tool",
+        "level": "intermediate"
+    },
+    {
+        "id": "MongoDB",
+        "name": "MongoDB",
+        "icon": "devicon-mongodb-plain",
+        "type": "database",
+        "level": "advanced"
+    },
+    {
+        "id": "MySQL",
+        "name": "MySQL",
+        "icon": "devicon-mysql-plain",
+        "type": "database",
+        "level": "advanced"
+    }
+]

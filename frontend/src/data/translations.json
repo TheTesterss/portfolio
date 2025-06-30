@@ -1,0 +1,206 @@
+{
+    "skills": {
+        "fr": "Mes Compétences",
+        "en": "My Skills"
+    },
+    "projects": {
+        "fr": "Projets",
+        "en": "Projects"
+    },
+    "socials": {
+        "fr": "Réseaux Sociaux",
+        "en": "Social Networks"
+    },
+    "contact": {
+        "fr": "Contact",
+        "en": "Contact"
+    },
+    "mySkills": {
+        "fr": "Mes Compétences",
+        "en": "My Skills"
+    },
+    "language": {
+        "fr": "Langues",
+        "en": "Languages"
+    },
+    "framework": {
+        "fr": "Frameworks",
+        "en": "Frameworks"
+    },
+    "tool": {
+        "fr": "Outils",
+        "en": "Tools"
+    },
+    "database": {
+        "fr": "Bases de données",
+        "en": "Databases"
+    },
+    "beginner": {
+        "fr": "Débutant",
+        "en": "Beginner"
+    },
+    "intermediate": {
+        "fr": "Intermédiaire",
+        "en": "Intermediate"
+    },
+    "advanced": {
+        "fr": "Avancé",
+        "en": "Advanced"
+    },
+    "expert": {
+        "fr": "Expert",
+        "en": "Expert"
+    },
+    "level": {
+        "fr": "Niveau",
+        "en": "Level"
+    },
+    "selectProject": {
+        "fr": "Sélectionner un Projet",
+        "en": "Select a Project"
+    },
+    "changelogFor": {
+        "fr": "Changelog pour",
+        "en": "Changelog for"
+    },
+    "selectAProject": {
+        "fr": "Sélectionnez un projet",
+        "en": "Select a project"
+    },
+    "loadingChangelogs": {
+        "fr": "Chargement des changelogs...",
+        "en": "Loading changelogs..."
+    },
+    "noChangelogsFound": {
+        "fr": "Aucun changelog trouvé pour ce projet.",
+        "en": "No changelogs found for this project."
+    },
+    "selectAProjectToViewChangelogs": {
+        "fr": "Sélectionnez un projet pour voir les changelogs.",
+        "en": "Select a project to view changelogs."
+    },
+    "version": {
+        "fr": "Version",
+        "en": "Version"
+    },
+    "previous": {
+        "fr": "Précédent",
+        "en": "Previous"
+    },
+    "next": {
+        "fr": "Suivant",
+        "en": "Next"
+    },
+    "locale": {
+        "fr": "fr-FR",
+        "en": "en-US"
+    },
+    "mySocials": {
+        "fr": "Mes Réseaux Sociaux",
+        "en": "My Social Networks"
+    },
+    "followers": {
+        "fr": "abonnés",
+        "en": "followers"
+    },
+    "members": {
+        "fr": "membres",
+        "en": "members"
+    },
+    "connections": {
+        "fr": "connexions",
+        "en": "connections"
+    },
+    "loadingStats": {
+        "fr": "Chargement des stats...",
+        "en": "Loading stats..."
+    },
+    "joinServer": {
+        "fr": "Rejoindre le serveur",
+        "en": "Join server"
+    },
+    "visitProfile": {
+        "fr": "Visiter le profil",
+        "en": "Visit profile"
+    },
+    "contactMe": {
+        "fr": "Me Contacter",
+        "en": "Contact Me"
+    },
+    "yourName": {
+        "fr": "Votre Nom",
+        "en": "Your Name"
+    },
+    "yourEmail": {
+        "fr": "Votre Email",
+        "en": "Your Email"
+    },
+    "yourMessage": {
+        "fr": "Votre Message",
+        "en": "Your Message"
+    },
+    "sendMessage": {
+        "fr": "Envoyer le message",
+        "en": "Send Message"
+    },
+    "sending": {
+        "fr": "Envoi...",
+        "en": "Sending..."
+    },
+    "messageSentSuccess": {
+        "fr": "Message envoyé avec succès ! Je vous répondrai bientôt.",
+        "en": "Message sent successfully! I will reply soon."
+    },
+    "messageSentError": {
+        "fr": "Erreur lors de l'envoi du message. Veuillez réessayer.",
+        "en": "Error sending message. Please try again."
+    },
+    "builtWithLove": {
+        "fr": "Construit avec",
+        "en": "Built with"
+    },
+    "and": {
+        "fr": "et",
+        "en": "and"
+    },
+    "privacyPolicy": {
+        "fr": "Politique de Confidentialité",
+        "en": "Privacy Policy"
+    },
+    "termsOfService": {
+        "fr": "Conditions d'Utilisation",
+        "en": "Terms of Service"
+    },
+    "cookieConsentTitle": {
+        "fr": "Utilisation des cookies",
+        "en": "Cookie Usage"
+    },
+    "cookieConsentText": {
+        "fr": "Ce site utilise des cookies pour améliorer votre expérience. En continuant à naviguer, vous acceptez notre politique de cookies.",
+        "en": "This site uses cookies to improve your experience. By continuing to browse, you agree to our cookie policy."
+    },
+    "accept": {
+        "fr": "Accepter",
+        "en": "Accept"
+    },
+    "decline": {
+        "fr": "Refuser",
+        "en": "Decline"
+    },
+    "descriptions": {
+        "en": "I'm a french developer, mainly focused on node.js (typescript) and python. I still try new languages such as: go, java... Currently in preparatory class, in first year. My goal is to work on quantum compunter. Currently working on my own api to manage a rpg with a package to use it. I already worked on a shell, on an interpreted language and much more... I started coding on June 2022 on replit, making my first programs. I learned html, css, javascript and started node.js to make rest apis. I still use them and continue making project.",
+        "fr": "Je suis un développeur français, principalement sur node.js (typescript) et python. J'essaie toujours de nouveaux langages comme go ou java... Actuellement en classe préparatoire, en première année. Mon but est de travailler sur les ordinateurs quantiques. Actuellement je travail sur une api pour gérer un rpg avec une librairie pour utiliser cette api. J'ai déjà travaillé sur un shell, un langage interprété et bien plus... J'ai commencé le code en juin 2022 sur replit, créant mon premier programme. J'ai appris html, css et javascript puis j'ai commencé node.js pour faire des apis rest. Je continue de faire des projects."
+    },
+    "aboutme": {
+        "fr": "A propos de moi",
+        "en": "About me"
+    },
+    "privacyContent": {
+        "fr": "Votre vie privée est importante pour nous. Nous ne collectons aucune donnée personnelle sans votre consentement. Pour toute question, contactez-nous.",
+        "en": "Your private life is important for us. We do not collect any personnal data without your consent. For any question, contact us."
+    },
+    "termsContent": {
+        "fr": "En utilisant ce site, vous acceptez nos conditions d'utilisation. Merci de respecter les règles et de profiter de votre visite.",
+        "en": "By using this site, you accept our terms of use. Thanks to respect the rules and to profit of your visit."
+    }
+}
