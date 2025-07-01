@@ -7,7 +7,7 @@ class ContactController {
         if (!name || !email || !message) {
             return res.status(400).json({ error: 'name, email and message are required' });
         }
-        
+
         const webhookUrl = process.env.WEBHOOK_URL;
         if (!webhookUrl) {
             return res.status(500).json({ error: 'Webhook URL not configured' });

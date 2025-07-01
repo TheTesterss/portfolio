@@ -1,13 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const setSubscriberRoutes = require('./routes/subscriber.route');
+const setContactRoutes = require('./routes/contact.route');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
-setSubscriberRoutes(app);
 setContactRoutes(app);
 
 app.listen(PORT, () => {

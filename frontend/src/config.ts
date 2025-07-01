@@ -73,6 +73,141 @@ export const PROJECTS_CONFIG = [
     }
 ];
 
+export const timelineData = [
+    {
+        date: 'Juin 2021',
+        title: {
+            fr: 'Début du code',
+            en: 'Start of coding'
+        },
+        color: 'red-500',
+        description: {
+            en: 'Starting programming with the web and online tutorials. I mostly learnt HTML and what we can do with following sites comme w3school, openclassroom or grafikart.',
+            fr: "Je débute le code avec le web et les tutoriels en ligne. J'apprend en grande partie le HTML avec ce qu'on peut y faire en suivant des sites comme w3shool, openclassroom ou grafikart."
+        }
+    },
+    {
+        date: 'Juillet 2021',
+        title: {
+            fr: 'Approfondissement',
+            en: 'Deepening'
+        },
+        color: 'green-500',
+        description: {
+            en: 'Continued my progression by learning CSS almost required to make beautiful websites. I, in the future continued to learn styling with bootstrap or tailwind.',
+            fr: "J'ai continué ma progression en apprennant CSS quasiment demandé pour faire d'assez beau sites. J'ai, par la suite appris d'autres frameworks pour styliser avec bootstrap ou tailwind."
+        }
+    },
+    {
+        date: 'Octobre 2021',
+        title: {
+            fr: 'Complétion des compétences web',
+            en: 'Web skills completion'
+        },
+        color: 'cyan-500',
+        description: {
+            en: 'After HTML and CSS, I learnt Javascript to add animation. Making my first web project for school which was very atypic. I learnt how we can manage css and html in javascript, adding new elements to html, updating css environments variables for dark/white modes...',
+            fr: "Après HTML et CSS, j'ai appris Javascript pour ajouter des animations. Créant mon premier projet web pour les cours qui fût assez atypique. J'ai appris comment gérer html et css en Javascript, ajoutant divers éléments au html, modifiant les variables d'environnements css pour des thèmes sombres."
+        }
+    },
+    {
+        date: 'Mars 2022',
+        title: {
+            fr: 'Le vrai code',
+            en: 'Real coding'
+        },
+        color: 'magenta-500',
+        description: {
+            en: 'I started real code, outside my domain which was web. I started learning Node.js mainly for discord bot learning how to use websocket apis and rest apis. Interfaces were way more easy to create games...',
+            fr: "J'ai commencé le vrai code, en dehors de mon domaine qui était le web. J'ai appris Node.js principalement pour les bots discord, apprenant l'usage d'apis rest et websocket. Les interfaces étaient simples pour les jeux..."
+        }
+    },
+    {
+        date: 'Décembre 2022',
+        title: {
+            fr: 'Le backend + Typescript',
+            en: 'Backend + Typescript'
+        },
+        color: 'blue-500',
+        description: {
+            en: 'Using rest apis for month was cool but learning how to make mine was far better. Using express to create apis to return JSON datas or images, adding filters... was amazing. Typescript allowed me to be more precise mainly for huge projects.',
+            fr: "Utilisant les apis rest pendant des mois était cool mais apprendre comment en faire était meilleur. En utilisant express pour en créer pour renvoyer images ou données JSON, ajouter des filtres... était incroyable. Typescript m'a permis d'être plus précis principalement pour de gros projets."
+        }
+    },
+    {
+        date: 'Mars 2023',
+        title: {
+            fr: 'Un nouveau langage',
+            en: 'A new language'
+        },
+        color: 'pink-500',
+        description: {
+            en: 'Fan of gaming since my childhood, I learned minecraft api which required knowledge in Java a weird and dirty language (for me). I disliked the way to manage my minecraft even if it was useful so I stopped months after.',
+            fr: "Fan de gaming depuis mon enfance, J'ai appris l'api de minecraft qui demandait des connaissances en Java, un étrange et sale langage (pour moi). Je n'ai pas apprécié la façon de gérer mon minecraft même si c'était utile du coup j'ai arrêté quelques mois après."
+        }
+    },
+    {
+        date: 'Septembre 2023',
+        title: {
+            fr: 'Rentrée en première',
+            en: 'Start of penultimate year'
+        },
+        color: 'orange-500',
+        description: {
+            en: "I went to being two classes of college's end. I got numeric speciality which was very interessant for the theories. Learning binary, assembly, python (which I already knew well), images manipulation, python interfaces... I had a way better level that what was required in pratic but theory was for real one thing I needed to understand.",
+            fr: "J'ai été à 2 classes de la fin du lycée. J'ai pris la spécialité numérique qui était vraiment intéressante pour les théories. Apprenant le binaire, assembleur, python (que je connaissais déjà bien), la manipulation d'images, les interfaces en python... J'avais un bien meilleur niveau que demandé en pratique mais pour la théorie c'était réellement quelque chose dont j'avais besoin."
+        }
+    },
+    {
+        date: 'Septembre 2024',
+        title: {
+            fr: 'Rentrée en terminale',
+            en: 'Start of final year'
+        },
+        color: 'gray-300',
+        description: {
+            en: 'Very last year of college. Same as for the last year, theories were incredible. Learnt graphs, database (sql, I personally knew mongodb), trees... I already used these notions in pratic but never applicated them with the complete theory.',
+            fr: "Dernière année de lycée. Pareil que l'année précédante, les théories étaient incroyable. J'ai appris les graphes, les bases de données (sql, je connaissais déjà mongodb), les arbres... J'utilisais déjà les notions en pratique mais je ne les avais jamais appliqué avec la théorie complète."
+        }
+    },
+    {
+        date: 'Novembre 2024',
+        title: {
+            fr: 'Go + Algorithme',
+            en: 'Go + Algorithm'
+        },
+        color: 'cyan-500',
+        description: {
+            en: 'I started learning go as C++ was the other choice and I disliked it. In go I still have some memory managment but lot of pointing. Learnt few basic algorithms.',
+            fr: "J'ai commencé à apprendre le go puisque C++ était le second choix et je l'aimais pas tant. En go il y a toujours de la gestion de la mémoire et beaucoup de pointages. J'ai appris quelques algorithmes."
+        }
+    },
+    {
+        date: 'Janvier 2025',
+        title: {
+            fr: 'React + TailwindCSS',
+            en: 'React + TailwindCSS'
+        },
+        color: 'blue-500',
+        description: {
+            en: 'Came back to making sites, I learnt a new technology to make site conception easier and better. I learnt react for the simplicity and the presence everything allowing me to ask for help to lot of people. Tailwind is easy so I used it as it was present everywhere.',
+            fr: "De retour pour faire des sites, j'ai appris de nouvelles technologies pour la conception de sites, les rendants faciles et meilleurs. J'ai appris react pour sa simplicité et sa présence partout m'aidant pour demander de l'aide. Tailwind est facile, je l'ai donc utilisé puisqu'il est présent partout."
+        }
+    },
+    {
+        date: 'Juin 2025',
+        title: {
+            fr: 'Approfondissement',
+            en: 'Deepening'
+        },
+        color: 'yellow-500',
+        description: {
+            en: 'Starting code daily, started project and continued them such as a shell, my portfolio, my own interpreter.',
+            fr: "J'ai commencé le code quotidiennement, commençant des projets et continuant certains tels qu'un shell, un portfolio, un interpréteur."
+        }
+    }
+];
+
 export const USERNAME = 'TheTesters';
 export const AUTHOR_NAME = 'Morgan Jaouen';
 

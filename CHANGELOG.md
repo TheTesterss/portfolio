@@ -1,3 +1,7 @@
+2025-07-01
+V1.1.1
+Added a chronological frise.
+&&&&&&
 2025-06-30
 V1.1.0
 Renamed the changelogs section to a project section.
