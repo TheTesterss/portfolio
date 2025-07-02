@@ -6,6 +6,8 @@ import portfolio1 from './assets/images/portfolio1.png';
 import portfolio2 from './assets/images/portfolio2.png';
 import portfolio3 from './assets/images/portfolio3.png';
 import portfolio4 from './assets/images/portfolio4.png';
+import interpreter1V3 from './assets/images/interpreter1V3.png';
+import interpreter2V3 from './assets/images/interpreter2V3.png';
 
 export const PROJECTS_CONFIG = [
     {
@@ -35,7 +37,7 @@ export const PROJECTS_CONFIG = [
         name: 'Interpreter V3 (Golang)',
         category: 'interpreter',
         githubLink: 'https://github.com/TheTesterss/memory',
-        images: [],
+        images: [interpreter1V3, interpreter2V3],
         description:
             'Third version of my own interpreter, future updates in the next months including every needed features and why not commands to run files. Actuallay almost empty just a simple print function.'
     },
