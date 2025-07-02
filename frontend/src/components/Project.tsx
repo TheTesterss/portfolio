@@ -353,14 +353,17 @@ const Project: React.FC = () => {
                                     ))}
                                 </div>
                             )}
-                            <a
-                                href={selectedProject.githubLink}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="absolute left-0 bottom-0 font-semibold text-blue-700 text-lg underline hover:text-blue-900"
-                            >
-                                Visiter le projet
-                            </a>
+                            <div className="w-full flex">
+                                <a
+                                    href={selectedProject.githubLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="font-semibold text-blue-700 text-lg underline hover:text-blue-900 mt-2"
+                                    style={{ marginLeft: 0 }}
+                                >
+                                    Visiter le projet
+                                </a>
+                            </div>
                         </div>
                     )}
                 </div>
@@ -369,7 +372,7 @@ const Project: React.FC = () => {
                 ReactDOM.createPortal(
                     <div
                         className="fixed inset-0 z-[9999] flex items-center justify-center w-screen h-screen pointer-events-auto"
-                        style={{ background: 'rgba(200,200,200,0.6)' }} // gris clair transparent
+                        style={{ background: 'rgba(200,200,200,0.6)' }}
                         onClick={() => setPreviewImg(null)}
                     >
                         <div
