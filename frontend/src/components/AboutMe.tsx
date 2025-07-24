@@ -32,29 +32,19 @@ function getTimelineLayout(length: number, selectedIdx: number, width: number) {
     }
     let lines = [];
     if (selectedIdx < 3) {
-        lines = [[0, 1, 2], [3, 4, 5, 6], [7, 8, 9, 10, 11].filter((i) => i < length)];
+        lines = [[0, 1, 2], [3, 4, 5, 6], [7, 8, 9, 10].filter((i) => i < length)];
     } else if (selectedIdx < 7) {
-        lines = [[0, 1, 2, 3], [4, 5, 6], [7, 8, 9, 10, 11].filter((i) => i < length)];
+        lines = [[0, 1, 2, 3], [4, 5, 6], [7, 8, 9, 10].filter((i) => i < length)];
     } else {
-        lines = [[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11].filter((i) => i < length)];
+        lines = [[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10].filter((i) => i < length)];
     }
-    for (let i = 0; i < lines.length; i++) {
-        if (lines[i].length === 3 && !lines[i].includes(selectedIdx)) {
-            for (let j = 0; j < lines.length; j++) {
-                if (lines[j].includes(selectedIdx)) {
-                    lines[j] = lines[j].filter((idx) => idx !== selectedIdx);
-                    lines[i][2] = selectedIdx;
-                    break;
-                }
-            }
-        }
-    }
+    
     return lines;
 }
 
 export default function AboutMe() {
     const { translations, language } = useLanguage();
-    const [selectedIdx, setSelectedIdx] = useState<number>(6);
+    const [selectedIdx, setSelectedIdx] = useState<number>(0);
     const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
 
     useEffect(() => {

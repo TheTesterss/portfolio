@@ -1,3 +1,14 @@
+2025-07-26
+next_update
+regular
+Add socials icons in the footer.
+&&&&&&
+2025-07-25
+next_update
+corrected
+Corrected the line dispatch when screen was reduced below 700 pixels.
+Corrected the projects section in the navigation which was not linking to the valid section.
+&&&&&&
 2025-07-01
 next_update
 added

@@ -6,7 +6,6 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Skills from './components/Skills';
 import Changelog from './components/Project';
-import Socials from './components/Socials';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import CookieConsent from './components/CookieConsent';
@@ -72,11 +71,8 @@ const App: React.FC = () => {
                                     <section id="skills" className="py-16">
                                         <Skills />
                                     </section>
-                                    <section id="changelog" className="py-16">
+                                    <section id="projects" className="py-16">
                                         <Changelog />
-                                    </section>
-                                    <section id="socials" className="py-16">
-                                        <Socials />
                                     </section>
                                     <section id="contact" className="py-16">
                                         <ContactForm />

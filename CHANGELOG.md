@@ -1,3 +1,8 @@
+2025-07-25
+V1.1.3
+Removed the socials section.
+Fixed bugs.
+&&&&&&
 2025-07-02
 V1.1.2
 Corrected the "Visit the project" link, could be above the presented images.
