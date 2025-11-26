@@ -1,3 +1,8 @@
+2025-11-26
+V1.1.4
+Corrected grammatical errors in both french and english language (normally).
+Updated skills masteries.
+&&&&&&
 2025-07-25
 V1.1.3
 Removed the socials section.

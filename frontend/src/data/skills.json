@@ -25,7 +25,7 @@
         "name": "CSS3",
         "icon": "fab fa-css3-alt",
         "type": "language",
-        "level": "advanced"
+        "level": "intermediate"
     },
     {
         "id": "react",
@@ -53,14 +53,14 @@
         "name": "Python",
         "icon": "fab fa-python",
         "type": "language",
-        "level": "expert"
+        "level": "advanced"
     },
     {
         "id": "git",
         "name": "Git",
         "icon": "fab fa-git-alt",
         "type": "tool",
-        "level": "advanced"
+        "level": "intermediate"
     },
     {
         "id": "github",
@@ -81,6 +81,6 @@
         "name": "MySQL",
         "icon": "devicon-mysql-plain",
         "type": "database",
-        "level": "advanced"
+        "level": "intermediate"
     }
 ]

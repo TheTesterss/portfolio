@@ -13,7 +13,7 @@ export const PROJECTS_CONFIG = [
     {
         name: 'Portfolio (React TS + Tailwindcss)',
         category: 'web',
-        githubLink: 'https://github.com/TheTesterss/portfolio-frontend-',
+        githubLink: 'https://github.com/TheTesterss/portfolio',
         images: [portfolio1, portfolio2, portfolio3, portfolio4],
         description: 'First version of my portfolio. See inside everything needed to know about me and my projects.'
     },
@@ -84,8 +84,8 @@ export const timelineData = [
         },
         color: 'red-500',
         description: {
-            en: 'Starting programming with the web and online tutorials. I mostly learnt HTML and what we can do with following sites comme w3school, openclassroom or grafikart.',
-            fr: "Je débute le code avec le web et les tutoriels en ligne. J'apprend en grande partie le HTML avec ce qu'on peut y faire en suivant des sites comme w3shool, openclassroom ou grafikart."
+            en: 'Started web development with online tutorials. Mainly learned HTML and what can be done with it by following sites and tutorials from w3school, openclassroom and grafikart.',
+            fr: "Je commence le développement web avec des tutoriels en ligne. J'ai appris principalement le HTML et ce qu'on peut faire avec en suivant des sites et tutoriels de w3school, openclassroom et grafikart."
         }
     },
     {
@@ -96,8 +96,8 @@ export const timelineData = [
         },
         color: 'green-500',
         description: {
-            en: 'Continued my progression by learning CSS almost required to make beautiful websites. I, in the future continued to learn styling with bootstrap or tailwind.',
-            fr: "J'ai continué ma progression en apprennant CSS quasiment demandé pour faire d'assez beau sites. J'ai, par la suite appris d'autres frameworks pour styliser avec bootstrap ou tailwind."
+            en: 'To continue with HTML, I learnt CSS and applied it more deeply. Now I turn to technologies like tailwind and bootstrap to simplify things.',
+            fr: "Pour continuer dans la lancée du HTML, j'ai appris le CSS et l'est appliqué plus en profondeur. Puis désormais je me tourne vers des technologies comme tailwind et bootstrap pour simplifier."
         }
     },
     {
@@ -108,7 +108,7 @@ export const timelineData = [
         },
         color: 'cyan-500',
         description: {
-            en: 'After HTML and CSS, I learnt Javascript to add animation. Making my first web project for school which was very atypic. I learnt how we can manage css and html in javascript, adding new elements to html, updating css environments variables for dark/white modes...',
+            en: 'After HTML and CSS, I learned Javascript to add animations. Creating my first web project for school which was quite atypical. I learned how to manage html and css in Javascript, adding various elements to html, modifying css environment variables for dark themes.',
             fr: "Après HTML et CSS, j'ai appris Javascript pour ajouter des animations. Créant mon premier projet web pour les cours qui fût assez atypique. J'ai appris comment gérer html et css en Javascript, ajoutant divers éléments au html, modifiant les variables d'environnements css pour des thèmes sombres."
         }
     },
@@ -132,8 +132,8 @@ export const timelineData = [
         },
         color: 'blue-500',
         description: {
-            en: 'Using rest apis for month was cool but learning how to make mine was far better. Using express to create apis to return JSON datas or images, adding filters... was amazing. Typescript allowed me to be more precise mainly for huge projects.',
-            fr: "Utilisant les apis rest pendant des mois était cool mais apprendre comment en faire était meilleur. En utilisant express pour en créer pour renvoyer images ou données JSON, ajouter des filtres... était incroyable. Typescript m'a permis d'être plus précis principalement pour de gros projets."
+            en: 'Using rest apis for months was nice but learning how to make some was better. Using express to create some to return images or json datas, adding filters... Learning Typescript allowed me to be more precise mainly for big projects.',
+            fr: "Utilisant les apis rest pendant des mois était sympa mais apprendre comment en faire était meilleur. En utilisant express pour en créer pour renvoyer images ou données JSON, ajouter des filtres... Apprendre Typescript m'a permis d'être plus précis principalement pour de gros projets."
         }
     },
     {
@@ -144,8 +144,8 @@ export const timelineData = [
         },
         color: 'pink-500',
         description: {
-            en: 'Fan of gaming since my childhood, I learned minecraft api which required knowledge in Java a weird and dirty language (for me). I disliked the way to manage my minecraft even if it was useful so I stopped months after.',
-            fr: "Fan de gaming depuis mon enfance, J'ai appris l'api de minecraft qui demandait des connaissances en Java, un étrange et sale langage (pour moi). Je n'ai pas apprécié la façon de gérer mon minecraft même si c'était utile du coup j'ai arrêté quelques mois après."
+            en: 'A video game fan since my childhood especially minecraft with which I grew up. So I learned JAVA to develop plugins and mods. I did not like developing with it notably the fact of creating my textures etc... So I stopped after a few small projects.',
+            fr: "Fan de jeux vidéos depuis mon enfance notamment minecraft avec lequel j'ai grandit. J'ai donc appris le JAVA pour développer plugins et mods. Je n'aimais pas développer avec notamment le fait de créer mes textures etc... J'ai donc arrêté après quelques petits projets."
         }
     },
     {
@@ -156,8 +156,8 @@ export const timelineData = [
         },
         color: 'orange-500',
         description: {
-            en: "I went to being two classes of college's end. I got numeric speciality which was very interessant for the theories. Learning binary, assembly, python (which I already knew well), images manipulation, python interfaces... I had a way better level that what was required in pratic but theory was for real one thing I needed to understand.",
-            fr: "J'ai été à 2 classes de la fin du lycée. J'ai pris la spécialité numérique qui était vraiment intéressante pour les théories. Apprenant le binaire, assembleur, python (que je connaissais déjà bien), la manipulation d'images, les interfaces en python... J'avais un bien meilleur niveau que demandé en pratique mais pour la théorie c'était réellement quelque chose dont j'avais besoin."
+            en: "I started the last two years of high school. I took my specialities for the Baccalaureate: mathematics, economic and social sciences as well as digital and computer science. The digital was relevant for the theory although in practice I knew how to reproduce almost all the programs, I learned algorithms, complexities, how a computer works...",
+            fr: "J'ai commencé les deux dernières années de lycée. J'ai pris mes spécialités pour le Baccaulauréat: mathématiques, sciences économiques et sociales ainsi que numérique et sciences informatiques. Le numérique était pertinant pour la théorie bien qu'en pratique je savais reproduire la quasi totalité des programmes, j'ai appris des algorithmes, les complexités, comment marche un ordinateur..."
         }
     },
     {
@@ -168,8 +168,8 @@ export const timelineData = [
         },
         color: 'gray-300',
         description: {
-            en: 'Very last year of college. Same as for the last year, theories were incredible. Learnt graphs, database (sql, I personally knew mongodb), trees... I already used these notions in pratic but never applicated them with the complete theory.',
-            fr: "Dernière année de lycée. Pareil que l'année précédante, les théories étaient incroyable. J'ai appris les graphes, les bases de données (sql, je connaissais déjà mongodb), les arbres... J'utilisais déjà les notions en pratique mais je ne les avais jamais appliqué avec la théorie complète."
+            en: 'Last year of high school. The theory is still as interesting. I learned new things such as sql (I only knew mongodb), graph and tree theory that I had already used in practice without knowing the theory.',
+            fr: "Dernière année de lycée. La théorie est toujours aussi intéréssante. J'ai appris de nouvelles choses comme le sql (je connaissais uniquement mongodb), la théorie des graphes et arbres que j'avais déjà utilisé en pratique sans en savoir la théorie."
         }
     },
     {
@@ -180,7 +180,7 @@ export const timelineData = [
         },
         color: 'cyan-500',
         description: {
-            en: 'I started learning go as C++ was the other choice and I disliked it. In go I still have some memory managment but lot of pointing. Learnt few basic algorithms.',
+            en: 'I started learning go since C++ was the second choice and I did not like it that much. In go there is still memory management and a lot of pointers. I learned some algorithms.',
             fr: "J'ai commencé à apprendre le go puisque C++ était le second choix et je l'aimais pas tant. En go il y a toujours de la gestion de la mémoire et beaucoup de pointages. J'ai appris quelques algorithmes."
         }
     },

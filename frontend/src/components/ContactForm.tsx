@@ -23,19 +23,36 @@ const ContactForm: React.FC = () => {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setStatus('sending');
+        const payload = {
+            name: formData.name.trim(),
+            email: formData.email.trim(),
+            message: formData.message.trim()
+        };
+
+        const missing = Object.entries(payload).filter(([, v]) => !v).map(([k]) => k);
+        if (missing.length) {
+            console.warn('Form validation failed, missing:', missing);
+            setStatus('error');
+            return;
+        }
 
         try {
-            const success = await axios.post('http://localhost:3000/api/contact', {
-                body: formData
+            const response = await axios.post('http://localhost:3000/api/contact', payload, {
+                headers: { 'Content-Type': 'application/json' }
             });
-            if (success) {
+            if (response && response.status === 200) {
                 setStatus('success');
                 setFormData({ name: '', email: '', message: '' });
             } else {
                 setStatus('error');
             }
-        } catch (err) {
-            console.error('Error sending contact form:', err);
+        } catch (err: any) {
+            // Surface server error message when available
+            if (err && err.response && err.response.data) {
+                console.error('Error sending contact form:', err.response.data);
+            } else {
+                console.error('Error sending contact form:', err);
+            }
             setStatus('error');
         }
     };
