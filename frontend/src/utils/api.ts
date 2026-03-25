@@ -17,6 +17,30 @@ interface TodosEntry {
     changes: string[];
 }
 
+interface MemoryInterpreterResult {
+    stdout: string;
+    stderr: string;
+    exitCode?: number;
+}
+
+export interface ApiRequestExecutionInput {
+    baseUrl: string;
+    method: 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE';
+    route: string;
+    params?: Record<string, string | number | boolean>;
+    query?: Record<string, string | number | boolean>;
+    body?: unknown;
+}
+
+export interface ApiRequestExecutionResult {
+    method: string;
+    url: string;
+    status: number;
+    statusText: string;
+    headers: Record<string, string>;
+    data: unknown;
+}
+
 /**
  * @param githubLink The github project link.
  * @returns A resolved promise with the changelog.
@@ -76,4 +100,30 @@ export const fetchTodos = async (githubLink: string): Promise<TodosEntry[]> => {
         });
 
     return elements;
+};
+
+export const runMemoryInterpreter = async (endpoint: string, code: string): Promise<MemoryInterpreterResult> => {
+    const response = await axios.post(endpoint, { code });
+
+    return {
+        stdout: response.data?.stdout ?? '',
+        stderr: response.data?.stderr ?? '',
+        exitCode: response.data?.exitCode
+    };
+};
+
+export const runApiRequestTest = async (
+    endpoint: string,
+    payload: ApiRequestExecutionInput
+): Promise<ApiRequestExecutionResult> => {
+    const response = await axios.post(endpoint, payload);
+
+    return {
+        method: response.data?.method ?? payload.method,
+        url: response.data?.url ?? '',
+        status: response.data?.status ?? 500,
+        statusText: response.data?.statusText ?? '',
+        headers: response.data?.headers ?? {},
+        data: response.data?.data
+    };
 };

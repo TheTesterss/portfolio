@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { useLanguage } from '../contexts/LanguageContext';
+import { useLanguage } from '../../contexts/LanguageContext';
 
 export default function TermsOfUse() {
     const navigate = useNavigate();

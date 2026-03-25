@@ -1,9 +1,8 @@
 import React from 'react';
-import skillsData from '../data/skills.json';
-import { useLanguage } from '../contexts/LanguageContext';
-// import { useTheme } from '../contexts/ThemeContext';
+import skillsData from '../../data/skills.json';
+import { useLanguage } from '../../contexts/LanguageContext';
 
-import useScrollAnimation from '../hooks/useScrollAnimation';
+import useScrollAnimation from '../../hooks/useScrollAnimation';
 
 interface Skill {
     id: string;
@@ -16,7 +15,6 @@ interface Skill {
 
 const Skills: React.FC = () => {
     const { translations } = useLanguage();
-    // const { theme } = useTheme();
     const sectionRef = useScrollAnimation();
 
     const categories = Array.from(new Set(skillsData.map((skill) => skill.type)));
@@ -28,9 +26,9 @@ const Skills: React.FC = () => {
             case 'intermediate':
                 return 'text-yellow-500';
             case 'advanced':
-                return 'text-blue-500';
-            case 'expert':
                 return 'text-green-500';
+            case 'expert':
+                return 'text-blue-500';
             default:
                 return 'text-gray-400';
         }
@@ -39,7 +37,6 @@ const Skills: React.FC = () => {
     return (
         <section ref={sectionRef} className="animate-on-scroll">
             <h2
-                // className={`text-4xl font-bold text-center mb-12 ${theme === 'dark' ? 'text-primary' : 'text-gray-800'}`}
                 className={`text-4xl font-bold text-center mb-12 text-gray-800`}
             >
                 {translations.mySkills}
@@ -48,7 +45,6 @@ const Skills: React.FC = () => {
             {categories.map((category) => (
                 <div key={category} className="mb-10">
                     <h3
-                        // className={`text-2xl font-semibold mb-6 ${theme === 'dark' ? 'text-gray-200' : 'text-gray-700'} border-b pb-2`}
                         className={`text-2xl font-semibold mb-6 text-gray-700 border-b pb-2`}
                     >
                         {translations[category as keyof typeof translations] || category}
@@ -59,23 +55,16 @@ const Skills: React.FC = () => {
                             .map((skill) => (
                                 <div
                                     key={skill.id}
-                                    // className={`flex flex-col items-center p-4 rounded-lg shadow-md cursor-pointer transition-all duration-300
-                                    //   ${theme === 'dark' ? 'bg-gray-700 hover:bg-gray-600' : 'bg-white hover:bg-gray-100'}
-                                    // transform hover:-translate-y-1`}
                                     className={`flex flex-col items-center p-4 rounded-lg shadow-md cursor-pointer transition-all duration-300
                                     bg-white hover:bg-gray-100 transform hover:-translate-y-1`}
                                 >
                                     {}
                                     <i
-                                        // className={`text-5xl mb-3 ${
-                                        // skill.icon.includes('devicon') ? '' : 'fa-fw'
-                                        // } ${skill.icon} ${theme === 'dark' ? 'text-primary' : 'text-blue-600'}`}
                                         className={`text-5xl mb-3 ${
                                             skill.icon.includes('devicon') ? '' : 'fa-fw'
                                         } ${skill.icon} text-blue-600`}
                                     />
                                     <span
-                                        // className={`text-lg font-medium ${theme === 'dark' ? 'text-gray-100' : 'text-gray-800'}`}
                                         className={`text-lg font-medium text-gray-800`}
                                     >
                                         {skill.name}

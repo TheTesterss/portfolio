@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-import { useLanguage } from '../contexts/LanguageContext';
-// import { useTheme } from '../contexts/ThemeContext';
-import useScrollAnimation from '../hooks/useScrollAnimation';
+import { useLanguage } from '../../contexts/LanguageContext';
+import useScrollAnimation from '../../hooks/useScrollAnimation';
 import axios from 'axios';
 
 const ContactForm: React.FC = () => {
     const { translations } = useLanguage();
-    // const { theme } = useTheme();
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -47,7 +45,6 @@ const ContactForm: React.FC = () => {
                 setStatus('error');
             }
         } catch (err: any) {
-            // Surface server error message when available
             if (err && err.response && err.response.data) {
                 console.error('Error sending contact form:', err.response.data);
             } else {
@@ -60,21 +57,18 @@ const ContactForm: React.FC = () => {
     return (
         <section ref={sectionRef} className="animate-on-scroll">
             <h2
-                // className={`text-4xl font-bold text-center mb-12 ${theme === 'dark' ? 'text-primary' : 'text-gray-800'}`}
                 className={`text-4xl font-bold text-center mb-12 text-gray-800`}
             >
                 {translations.contactMe}
             </h2>
 
             <div
-                // className={`max-w-2xl mx-auto p-8 rounded-lg shadow-lg ${theme === 'dark' ? 'bg-gray-700' : 'bg-white'}`}
                 className={`max-w-2xl mx-auto p-8 rounded-lg shadow-lg bg-white`}
             >
                 <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
                         <label
                             htmlFor="name"
-                            // className={`block text-lg font-medium mb-2 ${theme === 'dark' ? 'text-gray-200' : 'text-gray-700'}`}
                             className={`block text-lg font-medium mb-2 text-gray-700`}
                         >
                             {translations.yourName}
@@ -86,8 +80,6 @@ const ContactForm: React.FC = () => {
                             value={formData.name}
                             onChange={handleChange}
                             required
-                            // className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary
-                            // ${theme === 'dark' ? 'bg-gray-800 border-gray-600 text-gray-50' : 'bg-gray-50 border-gray-300 text-gray-900'}`}
                             className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary
                            bg-gray-50 border-gray-300 text-gray-900`}
                         />
@@ -95,7 +87,6 @@ const ContactForm: React.FC = () => {
                     <div>
                         <label
                             htmlFor="email"
-                            // className={`block text-lg font-medium mb-2 ${theme === 'dark' ? 'text-gray-200' : 'text-gray-700'}`}
                             className={`block text-lg font-medium mb-2 =text-gray-700`}
                         >
                             {translations.yourEmail}
@@ -107,8 +98,6 @@ const ContactForm: React.FC = () => {
                             value={formData.email}
                             onChange={handleChange}
                             required
-                            // className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary
-                            // ${theme === 'dark' ? 'bg-gray-800 border-gray-600 text-gray-50' : 'bg-gray-50 border-gray-300 text-gray-900'}`}
                             className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary
                             bg-gray-50 border-gray-300 text-gray-900`}
                         />
@@ -116,7 +105,6 @@ const ContactForm: React.FC = () => {
                     <div>
                         <label
                             htmlFor="message"
-                            // className={`block text-lg font-medium mb-2 ${theme === 'dark' ? 'text-gray-200' : 'text-gray-700'}`}
                             className={`block text-lg font-medium mb-2 text-gray-700`}
                         >
                             {translations.yourMessage}
@@ -128,8 +116,6 @@ const ContactForm: React.FC = () => {
                             value={formData.message}
                             onChange={handleChange}
                             required
-                            // className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary
-                            // ${theme === 'dark' ? 'bg-gray-800 border-gray-600 text-gray-50' : 'bg-gray-50 border-gray-300 text-gray-900'}`}
                             className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary
                             bg-gray-50 border-gray-300 text-gray-900`}
                         ></textarea>

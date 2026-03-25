@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { PROJECTS_CONFIG } from '../config';
+import { PROJECTS_CONFIG } from '../../config';
 import clsx from 'clsx';
 
 const categories = [
@@ -44,7 +44,7 @@ export default function ProjectSelector({ selectedProject, setSelectedProject }:
                                 className={clsx(
                                     'mr-2 transition-transform',
                                     openCategories[cat.key] ? 'rotate-90' : '',
-                                    'text-blue-600' // Ajoute cette classe pour la couleur bleue
+                                    'text-blue-600'
                                 )}
                             >
                                 ▶

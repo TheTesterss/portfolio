@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { useLanguage } from '../contexts/LanguageContext';
-import { timelineData } from '../config';
+import { useLanguage } from '../../contexts/LanguageContext';
+import { timelineData } from '../../config';
 
 const colorMap: Record<string, string> = {
     'red-500': 'bg-red-500',
@@ -15,6 +15,8 @@ const colorMap: Record<string, string> = {
 };
 
 function getTimelineLayout(length: number, selectedIdx: number, width: number) {
+    const range = (start: number, end: number) => Array.from({ length: Math.max(end - start, 0) }, (_, i) => i + start);
+
     if (width > 1100 || length <= 8) {
         return [[...Array(length).keys()]];
     }
@@ -32,13 +34,13 @@ function getTimelineLayout(length: number, selectedIdx: number, width: number) {
     }
     let lines = [];
     if (selectedIdx < 3) {
-        lines = [[0, 1, 2], [3, 4, 5, 6], [7, 8, 9, 10].filter((i) => i < length)];
+        lines = [[0, 1, 2], [3, 4, 5, 6], range(7, length)];
     } else if (selectedIdx < 7) {
-        lines = [[0, 1, 2, 3], [4, 5, 6], [7, 8, 9, 10].filter((i) => i < length)];
+        lines = [[0, 1, 2, 3], [4, 5, 6], range(7, length)];
     } else {
-        lines = [[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10].filter((i) => i < length)];
+        lines = [[0, 1, 2, 3], [4, 5, 6, 7], range(8, length)];
     }
-    
+
     return lines;
 }
 
@@ -58,7 +60,7 @@ export default function AboutMe() {
     return (
         <section className="my-8 px-4">
             <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">{translations.aboutme}</h2>
-            <p className="text-gray-700 leading-relaxed">{translations.descriptions}</p>
+            <p className="max-w-4xl mx-auto text-gray-700 leading-7">{translations.descriptions}</p>
 
             <div className="w-full flex flex-col items-center mt-12 gap-8">
                 {lines.map((line, lineIdx) => (
@@ -72,7 +74,7 @@ export default function AboutMe() {
                                 const event = timelineData[idx];
                                 const isSelected = selectedIdx === idx;
                                 return (
-                                    <div key={event.date} className="flex flex-col items-center group relative">
+                                    <div key={event.date[language] || event.date.fr} className="flex flex-col items-center group relative">
                                         <button
                                             onClick={() => setSelectedIdx(idx)}
                                             className={`
@@ -120,7 +122,7 @@ export default function AboutMe() {
                                         <span
                                             className={`mt-2 text-xs text-gray-700 whitespace-nowrap ${isSelected ? 'font-bold text-blue-700' : ''}`}
                                         >
-                                            {event.date}
+                                            {event.date?.[language] || event.date?.fr}
                                         </span>
                                     </div>
                                 );

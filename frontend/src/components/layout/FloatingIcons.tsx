@@ -1,5 +1,4 @@
 import React from 'react';
-// import { useTheme } from '../contexts/ThemeContext';
 
 import { FaJs, FaPython, FaDiscord, FaHtml5, FaCss3Alt, FaGithub, FaGofore } from 'react-icons/fa';
 import { SiTypescript } from 'react-icons/si';
@@ -22,7 +21,6 @@ const FloatingIcon: React.FC<FloatingIconProps> = ({ IconComponent, className, s
 };
 
 const FloatingIcons: React.FC = () => {
-    // const { theme } = useTheme();
 
     const icons = [
         { Icon: SiTypescript, size: 'w-16 h-16', position: { top: '10%', left: '10%' }, animation: 'icon-float-1' },
@@ -41,7 +39,6 @@ const FloatingIcons: React.FC = () => {
                 <FloatingIcon
                     key={index}
                     IconComponent={icon.Icon}
-                    // className={`${theme === 'dark' ? 'text-gray-600 opacity-20' : 'text-blue-300 opacity-30'}`}
                     className={`text-blue-300 opacity-30`}
                     size={icon.size}
                     position={icon.position}

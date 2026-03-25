@@ -1,23 +1,15 @@
 {
     "skills": {
-        "fr": "Mes Compétences",
-        "en": "My Skills"
+        "fr": "Compétences",
+        "en": "Skills"
     },
     "projects": {
         "fr": "Projets",
         "en": "Projects"
     },
-    "socials": {
-        "fr": "Réseaux Sociaux",
-        "en": "Social Networks"
-    },
     "contact": {
         "fr": "Contact",
         "en": "Contact"
-    },
-    "mySkills": {
-        "fr": "Mes Compétences",
-        "en": "My Skills"
     },
     "language": {
         "fr": "Langues",
@@ -95,30 +87,6 @@
         "fr": "fr-FR",
         "en": "en-US"
     },
-    "mySocials": {
-        "fr": "Mes Réseaux Sociaux",
-        "en": "My Social Networks"
-    },
-    "followers": {
-        "fr": "abonnés",
-        "en": "followers"
-    },
-    "members": {
-        "fr": "membres",
-        "en": "members"
-    },
-    "connections": {
-        "fr": "connexions",
-        "en": "connections"
-    },
-    "loadingStats": {
-        "fr": "Chargement des stats...",
-        "en": "Loading stats..."
-    },
-    "joinServer": {
-        "fr": "Rejoindre le serveur",
-        "en": "Join server"
-    },
     "visitProfile": {
         "fr": "Visiter le profil",
         "en": "Visit profile"
@@ -176,8 +144,8 @@
         "en": "Cookie Usage"
     },
     "cookieConsentText": {
-        "fr": "Ce site utilise des cookies pour améliorer votre expérience. En continuant à naviguer, vous acceptez notre politique de cookies.",
-        "en": "This site uses cookies to improve your experience. By continuing to browse, you agree to our cookie policy."
+        "fr": "Accepter des cookies (aucune donnée collectée).",
+        "en": "Accept cookies (no data collected)."
     },
     "accept": {
         "fr": "Accepter",
@@ -188,19 +156,19 @@
         "en": "Decline"
     },
     "descriptions": {
-        "en": "I am a french developer, mainly focused on node.js (typescript). I know other languages such as: python, go... Currently in preparatory class (MP2I). My goal is to work in computer science and software development. I'm not on any project right now, but I worked previously on what can be likened to a shell, an interpreted language and many others... I started programming alone and in 2022 on replit by making my first programs. I learned HTML, CSS, JavaScript, then node.js to make REST APIs. I try to continue to make projects alongside my studies.",
-        "fr": "Je suis un développeur français, principalement axé sur node.js (typescript). Je connais d'autres langages tels que: python, go... Actuellement en classe préparatoire (MP2I). Mon objectif est de travailler dans l'informatique et le développement de software. Je ne suis sur aucun projet en ce moment, mais j'ai travaillé précédemment sur ce qui peut s'apparenter à un shell, un langage interprété et bien d'autres... J'ai commencé à programmer seul et en 2022 sur replit en faisant mes premiers programmes. J'ai appris HTML, CSS, JavaScript, puis node.js pour faire des APIs REST. J'essaie de continuer de faire des projets en parallèle de mes études."
+        "fr": "Je m'appelle Morgan Jaouen. Je viens de Bretagne et j'étudie actuellement sur Poitiers en CPGE (MP2I) au lycée Camille Guérin. Passionné d'informatique depuis 5 ans maintenant, j'ai longtemps adoré toucher aux apis rest (en créer/utiliser) pour des projets simples. Depuis quelques temps j'utilise github pour stocker mes projets et git pour versionner pour ne rien perdre. J'ai fais beaucoup de python en cours ainsi qu'à la maison, du javascript (NodeJS) et typescript par moi même, actuellement je fais du go sur certains projets mais notamment concentré sur Ocaml et C pour les cours.",
+        "en": "My name's Morgan Jaouen. I'm from Bretagne and I currently study in Poitiers in CPGE (MP2I) in Camille Guérin's college. Fan of numeric and computer science since 5 years already, I, for a long time, loved touched rest apis (to create/use) for simples projects. Since few years I use github to store my projects and git to versionned them to never loose them. I made lot of python during classes but also at home, javascript (NodeJS) and typescript by myself, currently I do go in some projects but mostly focused on Ocaml and C for school."
     },
     "aboutme": {
         "fr": "A propos de moi",
         "en": "About me"
     },
     "privacyContent": {
-        "fr": "Votre vie privée est importante pour nous. Nous ne collectons aucune donnée personnelle sans votre consentement. Pour toute question, contactez-nous.",
-        "en": "Your private life is important for us. We do not collect any personnal data without your consent. For any question, contact us."
+        "fr": "Aucune donnée n'est collecté. Le backend sert simplement à contacter discord pour l'envoie d'un message à moi même. Les cookies ne servent donc pas :)",
+        "en": "No data collected. Backend is simply present to contact discord for the send of a message to myself. Cookies don't matter :)"
     },
     "termsContent": {
-        "fr": "En utilisant ce site, vous acceptez nos conditions d'utilisation. Merci de respecter les règles et de profiter de votre visite.",
-        "en": "By using this site, you accept our terms of use. Thanks to respect the rules and to profit of your visit."
+        "fr": "Merci de ne simplement pas voler mon identité ni mes projets.",
+        "en": "Thanks to just not take my identity and steal my projects."
     }
 }

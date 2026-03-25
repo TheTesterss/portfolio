@@ -1,45 +1,31 @@
 [
     {
-        "id": "ts",
-        "name": "TypeScript",
-        "icon": "devicon-typescript-plain",
-        "type": "language",
-        "level": "expert"
-    },
-    {
         "id": "js",
-        "name": "JavaScript",
+        "name": "NodeJS",
         "icon": "fab fa-node-js",
         "type": "language",
         "level": "expert"
     },
     {
-        "id": "html",
-        "name": "HTML5",
-        "icon": "fab fa-html5",
+        "id": "python",
+        "name": "Python",
+        "icon": "fab fa-python",
+        "type": "language",
+        "level": "expert"
+    },
+    {
+        "id": "ts",
+        "name": "TypeScript",
+        "icon": "devicon-typescript-plain",
         "type": "language",
         "level": "advanced"
     },
     {
-        "id": "css",
-        "name": "CSS3",
-        "icon": "fab fa-css3-alt",
+        "id": "c",
+        "name": "C",
+        "icon": "devicon-c-plain",
         "type": "language",
         "level": "intermediate"
-    },
-    {
-        "id": "react",
-        "name": "React",
-        "icon": "fab fa-react",
-        "type": "framework",
-        "level": "advanced"
-    },
-    {
-        "id": "tailwind",
-        "name": "Tailwind CSS",
-        "icon": "fas fa-wind",
-        "type": "framework",
-        "level": "beginner"
     },
     {
         "id": "go",
@@ -49,11 +35,32 @@
         "level": "intermediate"
     },
     {
-        "id": "python",
-        "name": "Python",
-        "icon": "fab fa-python",
+        "id": "ocaml",
+        "name": "Ocaml",
+        "icon": "devicon-ocaml-plain",
         "type": "language",
-        "level": "advanced"
+        "level": "intermediate"
+    },
+    {
+        "id": "discordjs",
+        "name": "Discord.js",
+        "icon": "fab fa-discord",
+        "type": "framework",
+        "level": "expert"
+    },
+    {
+        "id": "react",
+        "name": "React",
+        "icon": "fab fa-react",
+        "type": "framework",
+        "level": "intermediate"
+    },
+    {
+        "id": "tailwind",
+        "name": "Tailwind CSS",
+        "icon": "fas fa-wind",
+        "type": "framework",
+        "level": "intermediate"
     },
     {
         "id": "git",

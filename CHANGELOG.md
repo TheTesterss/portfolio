@@ -1,3 +1,16 @@
+2026-03-24
+V1.3
+Added my own markdown format for my descriptions to be more impacting (sections, code blocks, highlight...).
+Added a test part where you can try the project (or be redirected to where to try it if not possible online)..
+Redacted before project descriptions and more understandable.
+Added colorized syntax for my own interpreter for it to be more understandable.
+&&&&&&
+2026-03-18
+V1.2
+Corrected paginations for long projects changelogs and todos.
+Updated all the descriptions.
+Added more relevant dates to my timeline.
+Added english translations for timeline's dates.
 2025-11-26
 V1.1.4
 Corrected grammatical errors in both french and english language (normally).

@@ -1,28 +1,23 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import PrivacyPolicy from './components/PrivacyPolicy';
-import TermsOfUse from './components/TermOfUse';
+import PrivacyPolicy from './components/legal/PrivacyPolicy';
+import TermsOfUse from './components/legal/TermOfUse';
 import React, { useEffect, useState } from 'react';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import Skills from './components/Skills';
-import Changelog from './components/Project';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
-import CookieConsent from './components/CookieConsent';
-// import { useTheme } from './contexts/ThemeContext';
-// import { useLanguage } from './contexts/LanguageContext';
+import Header from './components/layout/Header';
+import Navigation from './components/layout/Navigation';
+import Skills from './components/sections/Skills';
+import Changelog from './components/project';
+import ContactForm from './components/sections/ContactForm';
+import Footer from './components/layout/Footer';
+import CookieConsent from './components/layout/CookieConsent';
 import { getCookieConsent, setCookieConsent } from './utils/cookieUtils';
-import AboutMe from './components/AboutMe';
+import AboutMe from './components/sections/AboutMe';
 
 const App: React.FC = () => {
-    // const { theme } = useTheme();
     const theme = 'light';
-    // const { translations } = useLanguage();
     const [showCookieConsent, setShowCookieConsent] = useState(false);
     const [canInteract, setCanInteract] = useState(false);
 
     useEffect(() => {
-        // document.body.className = theme === 'dark' ? 'bg-gray-900 text-gray-50' : 'bg-white text-gray-900';
         document.body.className = 'bg-white text-gray-900';
     }, [theme]);
 
