@@ -323,19 +323,20 @@ end[]
             - §nil§
             - §any§ (accepte tous les types mais aucune opération ne peut être faite avec lui car il ne connaît pas le type)
         
-        Entrées/sorties:
+        IO: ^^^^^^
             §§§§§§custom
             print["x"]
             print[5+1]
             setVar["x";5] c[ n'importe quel type mis]
             print["content of x is {x}"] c[ cela affiche content of x is 5 avec de l'escaping ]
             §§§§§§
+        ^^^^^^
 
         $Blocs$
         ::::::
         ### Blocs
         ::::::
-        Conditions et blocs if/else:
+        Conditions et blocs if/else: ^^^^^^
             §§§§§§custom
             print[2 > 1 && 3 > 2] c[ cela affiche true ]
 
@@ -355,8 +356,9 @@ end[]
                 print["x is less than 2"]
             end[]
             §§§§§§
+        ^^^^^^
 
-        Boucles:
+        Boucles: ^^^^^^
             §§§§§§custom
             setVar["x";0]
             while[x < 5]
@@ -364,12 +366,14 @@ end[]
                 setVar["x";x+1]
             end[]
             §§§§§§
+        Boucles: ^^^^^^
+        
         
         $Exemples$
         ::::::
         ### Exemples
         ::::::
-        Ces screens final montre le résultat d'un petit code qui inclut toutes les fonctionnalités.
+        Ces screens final montre le résultat d'un petit code qui inclut toutes les fonctionnalités. ^^^^^^
         §§§§§§custom
             setVar["i";0;"int"]
             while[i<=10]
@@ -387,6 +391,7 @@ end[]
         §§§§§§
         &&&&&&
         &&&&&&
+        ^^^^^^
         %7%
         `
     },
